@@ -1,18 +1,19 @@
 {
-  "name": "@taccl/json-check",
+  "name": "@taccl/json",
   "version": "v0.0.0",
   "author": {
     "name": "TaYaKi71751",
     "url": "https://github.com/TaYaKi71751"
   },
   "bugs": {
-    "url": "https://github.com/taccl/json-check/issues"
+    "url": "https://github.com/taccl/json/issues"
   },
   "repository": {
-    "url": "https://github.com/taccl/json-check"
+    "url": "https://github.com/taccl/json"
   },
   "main": "dist/index.js",
   "scripts": {
+    "test:json": "ts-node test/Json.ts",
     "tsc": "tsc",
     "dist": "tsc",
     "build": "tsc",
